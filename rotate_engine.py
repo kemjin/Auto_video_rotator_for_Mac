@@ -7,6 +7,7 @@
 #
 # Authos: Jin Wook Kim (11.04.2015)
 # Feel free to modify and use this code. 
+# This code follows MIT license.
 #
 ###############################################################################
 
