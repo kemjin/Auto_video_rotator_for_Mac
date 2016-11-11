@@ -1,5 +1,5 @@
-# Mac_movie_rotate_handbrake
-There was no proper FREE app for Mac that rotates movies 90 or 270 degree. 
+# Automated Movie Clips Rotator by HandBrake
+There was no proper FREE app for Mac that rotates movies 90 or 270 degree in the app stores or market place. 
 
 After googling, I found that Handbrake can rotate the video. However, we should use Command line interface to do that. 
 
