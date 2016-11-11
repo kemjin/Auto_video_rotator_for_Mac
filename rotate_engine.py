@@ -36,10 +36,6 @@ os.chdir(video_path)
 for file in glob.glob('*'):
 	print "converting : " + file
 	file2 = file.replace(' ', '_') # Get rid of all white space 
-	file2 = file2.replace('(', '') # Get rid of all parenthesis (
-	file2 = file2.replace(')', '') # Get rid of all parenthesis )
-	file2 = file2.replace('[', '') # Get rid of all brakckets [
-	file2 = file2.replace(']', '') # Get rid of all brakckets ]
 	os.rename(file, file2)
 	cmd = "/Applications/HandBrakeCLI -i ~/Desktop/direct_cam/" + file2 + " -o " + output_path + file2 + " -e x264 -q 20 -B 160 --rotate=" + rotation_direction
 	os.system(cmd)
